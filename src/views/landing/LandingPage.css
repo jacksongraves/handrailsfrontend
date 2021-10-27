@@ -1,0 +1,130 @@
+.title {
+	display: inline-block;
+	position: relative;
+	font-size: 4.2rem;
+	font-weight: 600;
+}
+
+.brand {
+	color: #ffffff;
+	text-align: left;
+}
+
+.subtitle {
+	margin: 10px 0 0;
+	font-size: 1.313rem;
+	max-width: 500px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width: 576px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+h1 {
+	display: inline-block;
+	position: relative;
+	font-size: 4.2rem;
+	font-weight: 600;
+	line-height: 1.15em;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+h2 {
+	color: #3c4858;
+	margin: 1.75rem 0 0.875rem;
+	margin-top: 30px;
+	min-height: 32px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 700;
+	margin-bottom: 1rem;
+	text-decoration: none;
+	font-size: 2.25rem;
+	line-height: 1.5em;
+}
+h3 {
+	margin: 10px 0 0;
+	font-size: 1.313rem;
+	max-width: 500px;
+	line-height: 1.4em;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+}
+
+h5 {
+	color: #999;
+	font-size: 1.0625rem;
+	line-height: 1.55em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	font-weight: 300;
+}
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.parallax {
+	border: 0;
+	height: 90vh;
+	margin: 0;
+	display: flex;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	max-height: 1000px;
+	align-items: center;
+	background-size: cover;
+	background-position: center center;
+	/* background-color: "#F0F4FF"; */
+	background-image: url("../../assets/img/henry-co-Hd7Qd0GxcqE-unsplash.jpg");
+	/* transform: translate3d(0px, 71.6667px, 0px); */
+}
+
+.grid-container {
+	width: auto;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.grid-item {
+	width: 100%;
+	position: relative;
+	flex-basis: auto;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main {
+	margin: -60px 30px 0px;
+	box-shadow: 0 16px 24px 2px rgb(0 0 0 / 14%), 0 6px 30px 5px rgb(0 0 0 / 12%),
+		0 8px 10px -5px rgb(0 0 0 / 20%);
+	border-radius: 6px;
+	z-index: 3;
+	position: relative;
+	background: #ffffff;
+}
